@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Juego</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <p>Juego de dados</p>
+    </div>
+    <div class="contenedor">
+        <div class="header" id="texto">
+            <img src="./img/trofeo.png" alt="">
+        </div>
+        <div class="Texto1"><b>Jugador #1</b> </div>
+        <div class="Texto2"><b>Jugador #2</b> </div>
+
+        <div class="jugador1" name="jugador1" id="jugador1">
+            <img class="mostrar-dado1 ocultar-dado" src="img\dado1.png" alt="">
+            <img class="mostrar-dado2 ocultar-dado" src="img\dado2.png" alt="">
+            <img class="mostrar-dado3 ocultar-dado" src="img\dado3.png" alt="">
+            <img class="mostrar-dado4 ocultar-dado" src="img\dado4.png" alt="">
+            <img class="mostrar-dado5 ocultar-dado" src="img\dado5.png" alt="">
+            <img class="mostrar-dado6 ocultar-dado" src="img\dado6.png" alt="">
+        </div>
+            
+        <div class="jugador2" name="jugador2" id="jugador2">
+            <img class="mostrar-dado1-Jugador2 ocultar-dado" src="img\dado1.png" alt="">
+            <img class="mostrar-dado2-Jugador2 ocultar-dado" src="img\dado2.png" alt="">
+            <img class="mostrar-dado3-Jugador2 ocultar-dado" src="img\dado3.png" alt="">
+            <img class="mostrar-dado4-Jugador2 ocultar-dado" src="img\dado4.png" alt="">
+            <img class="mostrar-dado5-Jugador2 ocultar-dado" src="img\dado5.png" alt="">
+            <img class="mostrar-dado6-Jugador2 ocultar-dado" src="img\dado6.png" alt="">
+        </div>
+
+        <div class="fin">
+            <button class="boton" onclick="lanzar()">Jugar</button>
+        </div>
+     
+    </div>
+    <script src="./js/funcion.js"></script>
+</body>
+</html>
